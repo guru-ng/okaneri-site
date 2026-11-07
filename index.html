@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Okaneri</title>
+<meta name="description" content="A private budget app for Japan. No login, no ads, no servers. English, 日本語, नेपाली.">
+<style>
+  :root { --bg: #F5FBF5; --text: #17201B; --muted: #4A564F; --navy: #20365C; --brass: #A8873F; color-scheme: light; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0F1511; --text: #E3EAE5; --muted: #A9B5AD; --navy: #B9C8E6; --brass: #D2B26C; color-scheme: dark; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--text);
+    font: 17px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, "Hiragino Sans", "Noto Sans JP", sans-serif; }
+  main { max-width: 36rem; margin: 0 auto; padding: 4rem 1rem; }
+  .coin { width: 56px; height: 56px; border-radius: 50%;
+    background: radial-gradient(circle, var(--bg) 0 30%, var(--brass) 31% 100%);
+    box-shadow: 0 0 0 8px var(--navy); margin: 8px 8px 2rem; }
+  h1 { font-size: 2rem; margin: 0 0 .5rem; }
+  p { margin: 0 0 1rem; }
+  .muted { color: var(--muted); }
+  a { color: var(--navy); font-weight: 600; }
+  a:focus-visible { outline: 3px solid var(--brass); outline-offset: 2px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="coin" aria-hidden="true"></div>
+  <h1>Okaneri</h1>
+  <p>A private budget app for life in Japan. Your data stays on your phone: no login, no ads, no servers.</p>
+  <p lang="ja">日本での暮らしのための、ログイン不要の家計簿アプリ。データはスマートフォンの中だけに保存されます。</p>
+  <p class="muted">English · 日本語 · नेपाली</p>
+  <p><a href="privacy.html">Privacy policy / プライバシーポリシー</a></p>
+  <p>Contact: <a href="mailto:okaneri.support@gmail.com">okaneri.support@gmail.com</a></p>
+</main>
+</body>
+</html>
